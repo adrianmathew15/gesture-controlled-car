@@ -1,0 +1,38 @@
+# Arduino build output
+build/
+/.tmp-report/
+.pio/
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.obj
+
+# Arduino IDE local state
+*.ino.globals.h
+*.ino.cpp
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local copies of third-party Arduino libraries
+/Adafruit_MPU6050/
+/Adafruit_Unified_Sensor/
+/OneWire/
+/WiFi/
+
+# Superseded source copies retained locally
+/receiverCode.txt
+/senderCode.txt
+
+# Original workshop deck contains third-party branding/content
+/docs/gesture.pptx
+
+
+# Microsoft Office temporary files
+~$*.docx

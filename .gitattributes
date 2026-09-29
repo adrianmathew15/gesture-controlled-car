@@ -1,0 +1,9 @@
+* text=auto
+*.ino text eol=lf
+*.h text eol=lf
+*.cpp text eol=lf
+*.md text eol=lf
+*.pptx binary
+*.jpg binary
+*.png binary
+*.mp4 filter=lfs diff=lfs merge=lfs -text
